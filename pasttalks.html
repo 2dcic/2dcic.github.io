@@ -1,0 +1,31 @@
+---
+layout: default
+title: Past Talks
+---
+<h1>Abstracts of past talks</h1>
+ <br>
+<ul class="post-list">
+  {% capture currentDate %}
+  {{ 'now' | date: '%s'}}
+  {% endcapture %}
+  {% for post in site.posts%}
+  {% capture postDate %}
+  {{ post.date | date: '%s'}}
+  {% endcapture %}
+    {% if currentDate < postDate %}
+    <!-- Don't show drafts -->
+    {% else %}
+    <li>
+	  {% if post.speaker-url == null or post.speaker-url == "" %}
+      <h2>{{ post.title }} - {{ post.speaker }} ({{ post.speaker-uni }})</h2>
+	  {% else %}
+      <h2>{{ post.title }} - <a href="{{ post.speaker-url }}">{{ post.speaker }}</a> ({{ post.speaker-uni }})</h2>
+	  {% endif %}
+      <h2>{{ post.subtitle }}</h2>
+      <br>
+      <p>{{ post.excerpt }}</p>
+      <br>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
