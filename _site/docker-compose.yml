@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   seminar:
-    container_name: seminar
+    container_name: colloquia
     build:
       context: .
     networks:
