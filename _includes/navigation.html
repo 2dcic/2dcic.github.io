@@ -19,9 +19,9 @@
   <section id="mySidenav" class="main-links">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+    {% if item.link %}<a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
       {{ item.name }}
-    </a>
+    </a>{% endif %}
     {% endfor %}
   </section>
 </nav>
