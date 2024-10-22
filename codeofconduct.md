@@ -17,8 +17,8 @@ Harassment can occur when there is no deliberate intention to offend. Be careful
 
 If you feel that you have experienced or witnessed an instance of unacceptable behaviour, you are encouraged to approach the following contacts for support and advice:
 * the event organisers;
-* QM Report + Support at [https://reportandsupport.qmul.ac.uk/](https://reportandsupport.qmul.ac.uk/), where you can make a report anonymously;
-* the QM S&E EDI Lead, Professor Claudia Garetto, at [c.garetto@qmul.ac.uk](mailto:c.garetto@qmul.ac.uk).
+* QM Report + Support at https://reportandsupport.qmul.ac.uk/, where you can make a report anonymously;
+* the QM S&E EDI Lead, Professor Claudia Garetto, at c.garetto@qmul.ac.uk.
 
 **Consequences of unacceptable behaviour**
 
