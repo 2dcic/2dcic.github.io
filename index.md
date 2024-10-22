@@ -1,34 +1,7 @@
 ---
-title: UCL Combinatorics seminar
+title: Colloqouia in Combinatorics
 ---
 
-The University College London (UCL) Combinatorics Seminar will resume next Autumn. 
+2025 sees the 18th year of the Colloquia in Combinatorics. Each year, we present a dozen talks covering a wide range of topics of interest to all those working in combinatorics or related fields.
 
-To subscribe to the mailing list, please email Amedeo Sgueglia at a [dot] sgueglia [at] ucl [dot] ac [dot] uk.
-
----
-
-# Next Speaker
-<br>
-<ul class="post-list">
-{% capture currentDate %}
-  {{ 'now' | date: '%s'}}
-  {% endcapture %}
-  {% for post in site.posts reversed %}
-  {% capture postDate %}
-  {{ post.date | date: '%s'}}
-  {% endcapture %}
-    {% if currentDate < postDate %}
-    <!-- Don't show drafts -->
-    <li>
-      <h2>{{ post.title }} - <a href="{{ post.speaker-url }}">{{ post.speaker }}</a> ({{ post.speaker-uni }})</h2>
-      <h2>{{ post.subtitle }}</h2>
-      <br>
-      <p>{{ post.excerpt }}</p>
-      <br><br>
-    </li>
-    {%break%} 
-    {% else %}
-    {% endif %}
-  {% endfor %}
-</ul>
+<b>Event organisers:</b> 

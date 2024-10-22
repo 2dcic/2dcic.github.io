@@ -18,8 +18,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-url: https://uclcombiseminar.github.io
-domain: uclcombiseminar.github.io
+url: https://2dcic.github.io
+domain: 2dcic.github.io
 
 
 future: true
