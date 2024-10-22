@@ -1,3 +1,24 @@
+settings:
+  - year: "2025"
+  - dates: "8 and 9 May"
+  - locations: "QMUL and UCL"
+
+navigation:
+  - name: Speakers
+    link: 
+  - name: Registration
+    link: 
+  - name: Posters
+    link: 
+  - name: Funding
+    link: 
+  - name: Childcare
+    link: 
+  - name: Code of Conduct
+    link: /codeofconduct
+  
+## original settings from here
+
 defaults:
   - scope:
       path: ""
@@ -20,6 +41,5 @@ plugins:
 
 url: https://2dcic.github.io
 domain: 2dcic.github.io
-
 
 future: true

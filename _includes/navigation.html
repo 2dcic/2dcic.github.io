@@ -1,11 +1,11 @@
 <nav>
   <section class="info">
-    <a href="/" aria-label="links home">
+    <!-- <a href="/" aria-label="links home">
       <img src="/assets/images/icon.svg" alt="Site logo"/>
-    </a>
+    </a> -->
     <section class="title">
       <a href="/">
-        <h1>Colloquia in Combinatorics</h1>
+        <title>Colloquia in Combinatorics</title>
       </a>
       <p>QMUL and UCL, 8 and 9 May 2025</p>
     </section>
@@ -18,7 +18,7 @@
 
   <section id="mySidenav" class="main-links">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    {% for item in site.data.navigation %}
+    {% for item in site.navigation %}
     {% if item.link %}<a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
       {{ item.name }}
     </a>{% endif %}
