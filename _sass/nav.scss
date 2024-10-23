@@ -29,7 +29,7 @@ nav {
       h1 {
         text-transform: uppercase;
         font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
 
         a {
           color: $main-accent;
@@ -38,6 +38,10 @@ nav {
             color: $main-accent;
           }
         }
+      }
+      
+      h2 {
+        font-size: 1.5rem;
       }
 
       p {
@@ -102,6 +106,10 @@ nav {
 
         h1 {
           font-size: 1.25rem;
+        }
+        
+        h2 {
+          font-size: 1rem;
         }
 
         p {
