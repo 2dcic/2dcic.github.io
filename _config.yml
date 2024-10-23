@@ -1,10 +1,26 @@
-edition: "eighteenth"
-year: "2025"
-dates: "8 and 9 May"
-locations: "QMUL and UCL"
+edition: 18
+date: 2025-05-07
+locations:
+  - QM
+  - UCL
+
+# edition: 17
+# date: 2024-05-08
+# locations:
+#   - UCL
+#   - LSE
+
+collections:
+  talks:
+    sort_by: number
+  # tags:
+  #   output: true
+  #   permalink: tags/:path/
 
 navigation:
   - name: Speakers
+    link: 
+  - name: Schedule
     link: 
   - name: Registration
     link: 
@@ -16,23 +32,25 @@ navigation:
     link: 
   - name: Code of Conduct
     link: /codeofconduct.html
+  - name: Archive
+    link: 
 
 organisers:
-- name: Felix Fischer
-  affiliation: QMUL
-  link: https://webspace.maths.qmul.ac.uk/felix.fischer/
-- name: Shoham Letzter
-  affiliation: UCL
-  link: https://shohamlet.github.io/
-- name: Viresh Patel
-  affiliation: QMUL
-  link: https://sites.google.com/site/vireshspatel/
-- name: Alexey Pokrovskiy
-  affiliation: UCL
-  link: https://alexeypokrovskiy.com/
-- name: John Talbot
-  affiliation: UCL
-  link: https://www.ucl.ac.uk/quantum/people/dr-john-talbot
+  - name: Felix Fischer
+    affiliation: QMUL
+    link: https://webspace.maths.qmul.ac.uk/felix.fischer/
+  - name: Shoham Letzter
+    affiliation: UCL
+    link: https://shohamlet.github.io/
+  - name: Viresh Patel
+    affiliation: QMUL
+    link: https://sites.google.com/site/vireshspatel/
+  - name: Alexey Pokrovskiy
+    affiliation: UCL
+    link: https://alexeypokrovskiy.com/
+  - name: John Talbot
+    affiliation: UCL
+    link: https://www.ucl.ac.uk/quantum/people/dr-john-talbot
 
 # support:
 #   - name:
@@ -51,11 +69,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-
-collections:
-  tags:
-    output: true
-    permalink: tags/:path/
 
 plugins:
   - jekyll-feed

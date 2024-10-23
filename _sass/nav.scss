@@ -17,6 +17,7 @@ nav {
   .info {
     font-family: $heading-font;
     display: flex;
+    flex: 0 0 auto;
 
     img {
       height: 3.5rem;
@@ -47,6 +48,11 @@ nav {
   }
 
   .main-links {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding-left:50px;
 
     a {
       color: #555;
@@ -75,7 +81,7 @@ nav {
 }
 
 //Mobile nav
-@media only screen and (max-width: $mobile) {
+@media only screen and (max-width: $tablet) {
   nav {
     max-width: 100%;
     padding: 0;

@@ -13,7 +13,7 @@ Open exchange of ideas and freedom of thought and expression are central to rese
 * Alert the event organisers if you notice a dangerous situation, someone in distress, or violations of this code, even if they seem inconsequential.
 
 **Unacceptable behaviour**
-* Any action directed at an individual that (a) interferes substantially with that person's participation; or (b) causes that person to fear for their safety. This includes threats, intimidation, bullying, stalking, and other types of abuse.
+* Any action directed at an individual that (a) interferes substantially with the individual's participation; or (b) causes the individual to fear for their safety. This includes threats, intimidation, bullying, stalking, and other types of abuse.
 * Any conduct that discriminates or denigrates an individual based on age, belief, disability, ethnicity, gender identity, race, religion, sexual identity, or any other characteristic protected by law.
 * Unwelcome sexual advances, requests for sexual favours, or other verbal or physical conduct of a sexual nature.
 

@@ -1,11 +1,18 @@
+{% assign sday = site.date | date: "%s" | plus: 0 %}
+{% assign eday = sday | plus: 86400 %}
+{% assign smonth = sday | date: "%B" %}
+{% assign emonth = eday | date: "%B" %}
+{% assign sfmt = '%-d' %}
+{% assign efmt = "%-d %B %Y" %}
+
 <nav>
   <section class="info">
     <a href="/" aria-label="links home">
-      <img src={{ "/assets/images/icon.svg" | relative_url }} alt="Site logo"/>
+      <img src="{{ "/assets/images/icon.svg" | relative_url }}" alt="Site logo"/>
     </a>
     <section class="title">
-      <h1><a href={{ "/" | relative_url }}>{{ site.year}} Colloquia in Combinatorics</a></h1>
-      <p>{{ site.locations}}, {{ site.dates }} {{ site.year }}<p>
+      <h1><a href="{{ "/" | relative_url }}">{{ site.date | date: "%Y" }} Colloquia in Combinatorics</a></h1>
+      <p> {{ site.locations.first }} and {{ site.locations.last }}, {% if smonth == emonth %}{{ sday | date: sfmt }} and {{ eday | date: efmt }}{% else %}{{ sday | date: '%-d %B' }} and {{ eday | date: '%-d %B %Y' }}{% endif %}<p>
     </section>
   </section>
 
@@ -16,10 +23,8 @@
 
   <section id="mySidenav" class="main-links">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    {% for item in site.navigation %}
-    {% if item.link %}<a href={{ item.link | relative_url }} {% if page.url == item.link %}class="current"{% endif %}>
+    {% for item in site.navigation %}{% if item.link %}<a href={{ item.link | relative_url }} {% if page.url == item.link %}class="current"{% endif %}>
       {{ item.name }}
-    </a>{% endif %}
-    {% endfor %}
+    </a>{% endif %}{% endfor %}
   </section>
 </nav>
