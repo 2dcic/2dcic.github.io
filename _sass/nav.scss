@@ -19,7 +19,7 @@ nav {
     display: flex;
 
     img {
-      height: 2.75rem;
+      height: 3.5rem;
       margin: 1rem;
     }
 
@@ -40,12 +40,8 @@ nav {
         }
       }
       
-      h2 {
-        font-size: 1.25rem;
-      }
-
       p {
-        font-size: 1rem;
+        font-size: 1.25rem;
       }
     }
   }
@@ -98,8 +94,8 @@ nav {
     .info {
 
       img {
-        height: 2.25rem;
-        margin: 1rem 0.5rem 0 1rem;
+        height: 2.5rem;
+        margin: .75rem 0.5rem 0 1rem;
       }
 
       .title {
@@ -109,13 +105,8 @@ nav {
           padding-bottom: 0rem;
         }
         
-        h2 {
-          font-size: 1rem;
-          padding-top: 0rem;
-        }
-
         p {
-          font-size: 0.9rem;
+          font-size: 1rem;
         }
       }
     }

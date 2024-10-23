@@ -1,11 +1,11 @@
 <nav>
   <section class="info">
-    <!-- <a href="/" aria-label="links home">
-      <img src="/assets/images/icon.svg" alt="Site logo"/>
-    </a> -->
+    <a href="/" aria-label="links home">
+      <img src={{ "/assets/images/icon.svg" | relative_url }} alt="Site logo"/>
+    </a>
     <section class="title">
-      <h1><a href="/">{{ site.year}} Colloquia in Combinatorics</a></h1>
-      <h2>{{ site.locations}}, {{ site.dates }} {{ site.year }}</h2>
+      <h1><a href={{ "/" | relative_url }}>{{ site.year}} Colloquia in Combinatorics</a></h1>
+      <p>{{ site.locations}}, {{ site.dates }} {{ site.year }}<p>
     </section>
   </section>
 
@@ -17,7 +17,7 @@
   <section id="mySidenav" class="main-links">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     {% for item in site.navigation %}
-    {% if item.link %}<a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+    {% if item.link %}<a href={{ item.link | relative_url }} {% if page.url == item.link %}class="current"{% endif %}>
       {{ item.name }}
     </a>{% endif %}
     {% endfor %}

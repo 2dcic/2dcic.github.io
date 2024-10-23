@@ -1,3 +1,9 @@
+---
+
+title: Code of Conduct
+
+---
+
 Open exchange of ideas and freedom of thought and expression are central to research meetings. We expect cooperation from event participants to ensure a safe environment for everyone in all event venues, including ancillary events and unofficial social gatherings.
 
 **Expected behaviour**

@@ -1,6 +1,6 @@
 ---
 
-title: {{ site.year }} Colloqouia in Combinatorics
+title: Colloqouia in Combinatorics
 
 ---
 
