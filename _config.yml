@@ -1,14 +1,9 @@
+event: 2025 Colloquia in Combinatorics
 edition: 18
 date: 2025-05-07
 locations:
-  - QM
+  - QMUL
   - UCL
-
-# edition: 17
-# date: 2024-05-08
-# locations:
-#   - UCL
-#   - LSE
 
 collections:
   talks:

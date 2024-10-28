@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Colloquia in Combinatorics">
+<meta name="description" content="{{ site.event }}">
 
 <!-- Favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="" />
@@ -11,14 +11,14 @@
 <!-- Social sharing info -->
 <meta property="og:type" content="article">
 <meta property="og:title" content="{{ page.title }}">
-<meta property="og:site_name" content="Colloquia in Combinatorics">
+<meta property="og:site_name" content="{{ site.event }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <!-- If blog post designates header image, use it. Otherwise, use site logo. -->
 <meta property="og:image" content="{% if page.image %}{{ site.url }}/assets/images/{{ page.image }}{% else %}{% endif %}">
-<meta property="og:description" content="Colloquia in Combinatorics">
+<meta property="og:description" content="{{ site.event }}">
 <meta property="fb:app_id" content=""/>
 
-<title>{{ page.title }} | Colloquia in Combinatorics</title>
+<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.event }}</title>
 
 <!-- FONTS AND STYLESHEETS -->
 <link rel="stylesheet" href="https://use.typekit.net/fol4uvq.css">

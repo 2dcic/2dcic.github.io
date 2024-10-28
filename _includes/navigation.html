@@ -11,7 +11,7 @@
       <img src="{{ "/assets/images/icon.svg" | relative_url }}" alt="Site logo"/>
     </a>
     <section class="title">
-      <h1><a href="{{ "/" | relative_url }}">{{ site.date | date: "%Y" }} Colloquia in Combinatorics</a></h1>
+      <h1><a href="{{ "/" | relative_url }}">{{ site.event }}</a></h1>
       <p> {{ site.locations.first }} and {{ site.locations.last }}, {% if smonth == emonth %}{{ sday | date: sfmt }} and {{ eday | date: efmt }}{% else %}{{ sday | date: '%-d %B' }} and {{ eday | date: '%-d %B %Y' }}{% endif %}<p>
     </section>
   </section>

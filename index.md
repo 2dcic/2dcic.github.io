@@ -1,7 +1,5 @@
 ---
 
-title: Colloquia in Combinatorics
-
 ---
 
 
