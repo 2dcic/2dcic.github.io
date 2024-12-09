@@ -8,9 +8,6 @@ speaker: Natalie Behague
 affiliation: University of Warwick
 link: https://nb453.user.srcf.net/
 title: 
-excerpt_separator: <!--more-->
 
 ---
 
-
-<!--more-->

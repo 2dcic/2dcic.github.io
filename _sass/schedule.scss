@@ -1,0 +1,42 @@
+ul.talks {
+  margin-left: 0;
+  padding-left: 0;
+  padding-top: 0.1rem;
+li {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+  font-size: 1.25rem;
+}}
+
+
+.drop {
+  cursor: pointer;
+  display: block;
+  margin-top: 1ex;
+}
+
+input[type="checkbox"]  {
+ display: none; /* hide the checkboxes */
+}
+
+input +.drop +  div
+
+{
+  display:none;
+}
+.drop:after {
+  content: '';
+  text-align: right;
+  float:right;
+  color: $mid-grey;
+  }
+:checked  + .drop:after {
+  content: '';
+  text-align: right;
+  float:right;
+  color: $mid-grey;
+  }
+input:checked + .drop + div{
+  display:block;
+}
