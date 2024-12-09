@@ -4,9 +4,8 @@ title: Speakers
 
 ---
 
-{% assign cdate = site.date | date: "%s" | plus: 0 %}
-{% assign cyear = cdate | date: "%Y" | plus: 0 %}
-
+{% assign cdate = site.date | date: "%s" | plus: 0 %}{% assign cyear = cdate | date: "%Y" | plus: 0 %}
+The following speakers have confirmed their participation in the conference.
 {% for location in site.locations %}
   <h3>{{ cdate | date: "%A %-d %B %Y"}}, {{ location }}</h3>
   <ul>{% assign cdate = cdate | plus: 86400 %}{% assign cindex = forloop.index %}{% for talk in site.talks %}{% if talk.year == cyear and talk.day == cindex %}

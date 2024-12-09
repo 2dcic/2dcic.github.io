@@ -23,7 +23,7 @@
 
   <section id="mySidenav" class="main-links">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    {% for item in site.navigation %}{% if item.link %}<a href={{ item.link | relative_url }} {% if page.url == item.link %}class="current"{% endif %}>
+    {% for item in site.navigation %}{% if item.link %}<a href={{ item.link | relative_url }}{% if page.url == item.link %} class="current"{% endif %}>
       {{ item.name }}
     </a>{% endif %}{% endfor %}
   </section>
