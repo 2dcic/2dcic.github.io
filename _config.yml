@@ -14,7 +14,7 @@ collections:
 
 navigation:
   - name: Speakers
-    link: 
+    link: /speakers.html
   - name: Schedule
     link: 
   - name: Registration
