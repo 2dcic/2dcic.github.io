@@ -48,13 +48,13 @@ organisers:
     link: https://www.ucl.ac.uk/quantum/people/dr-john-talbot
 
 support:
-  - name: the London Mathematical Society
+  - name: London Mathematical Society
     link: https://www.lms.ac.uk/
     logo: lms.png
-  - name: the Heilbronn Institute for Mathematical Research
+  - name: Heilbronn Institute for Mathematical Research
     link: https://heilbronn.ac.uk/
     logo: himr.png
-  - name: the UKRI/EPSRC Additional Funding Programme for Mathematical Sciences
+  - name: UKRI/EPSRC Additional Funding Programme for Mathematical Sciences
     logo: epsrc.png
 
 ## original settings from here
