@@ -14,7 +14,7 @@
 
 {% assign filtered = site.navigation | where: 'name', "Registration" %}
 {% if filtered.size > 0 and filtered.first.link %}
-<a href="{{ filtered.first.link }}">Registration</a> for the {{ site.date | date: "%Y" }} Colloquia is now available. Standard registration is intended for participants with access to a grant or institutional travel support, Free registration for all other participants. Please register before the event.
+<a href="{{ filtered.first.link }}">Registration</a> for the {{ site.date | date: "%Y" }} Colloquia is now available. Standard registration is intended for participants with access to a grant or institutional travel support, free registration for all other participants. Please register before the event.
 {% endif %}
 
 {% for item in site.organisers %}{% if forloop.first == true %}The {{ site.date | date: "%Y" }} Colloquia are organised by {% endif %}{% if forloop.first == false and forloop.last == false or forloop.index != 2 %},{% endif %} {% if forloop.last == true and forloop.first == false %}and {% endif %}{% if item.link %}<a href="{{ item.link }}">{% endif %}{{ item.name }}{% if item.link %}</a>{% endif %} ({{ item.affiliation }}){% if forloop.last == true %}.{% endif %}{% endfor %}
