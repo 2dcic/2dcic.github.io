@@ -5,6 +5,28 @@ locations:
   - QMUL
   - UCL
 
+schedule:
+  - time: "10:00"
+    type: coffee
+  - time: "10:30"
+    type: talk
+  - time: "11:20"
+    type: talk
+  - time: "12:10"
+    type: lunch
+  - time: "13:40"
+    type: talk
+  - time: "14:30"
+    type: talk
+  - time: "15:20"
+    type: coffee
+  - time: "15:50"
+    type: talk
+  - time: "16:40"
+    type: talk
+  - time: "17:45"
+    type: reception
+
 collections:
   talks:
     sort_by: number
@@ -20,11 +42,11 @@ navigation:
   - name: Registration
     link: https://onlinestore.ucl.ac.uk/conferences-and-events/faculty-of-mathematical-physical-sciences-c06/mathematics-f59/f59-2025-colloquia-in-combinatorics
   - name: Posters
-    link: 
+    link: /posters.html
   - name: Funding
-    link: 
+    link: /funding.html
   - name: Childcare
-    link: 
+    link: /childcare.html
   - name: Code of Conduct
     link: /codeofconduct.html
   - name: Archive
@@ -46,6 +68,16 @@ organisers:
   - name: John Talbot
     affiliation: UCL
     link: https://www.ucl.ac.uk/quantum/people/dr-john-talbot
+
+contacts:
+  funding:
+    name: John Talbot
+    email: j.talbot@ucl.ac.uk
+    subject: funding support
+  posters:
+    name: Shoham Letzter
+    email: s.letzter@ucl.ac.uk
+    subject: poster session
 
 support:
   - name: British Combinatorial Committee
@@ -72,6 +104,10 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+markdown: kramdown
+
+mathjax: true
 
 plugins:
   - jekyll-feed

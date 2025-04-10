@@ -1,19 +1,17 @@
-ul.talks {
+table.talks {
   margin-left: 0;
   padding-left: 0;
   padding-top: 0.1rem;
-li {
+td {
   margin-left: 0;
-  padding-left: 0;
-  list-style-type: none;
-  font-size: 1.25rem;
+  padding: 0 10px;
 }}
 
 
 .drop {
   cursor: pointer;
   display: block;
-  margin-top: 1ex;
+  margin-top: 0;
 }
 
 input[type="checkbox"]  {
@@ -24,6 +22,7 @@ input +.drop +  div
 
 {
   display:none;
+  max-width: 600px;
 }
 .drop:after {
   content: '';

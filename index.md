@@ -10,7 +10,7 @@
   {% assign tlink = speakers.first.link %}
 {% endif %}
 
-{{ site.date | date: "%Y" }} sees the {% assign r = site.edition | modulo: 10 %}{% case r %}{% when 1 %}{{ site.edition }}st{% when 2 %}{{ site.edition }}nd{% when 3 %}{{ site.edition }}rd{% else %}{{ site.edition }}th{% endcase %} year of the Colloquia in Combinatorics. Like every year, the 2025 Colloquia feature {% if tlink %}<a href="{{ tlink | relative_url }}">{% endif %}twelve talks{% if tlink %}</a>{% endif %} covering a wide range of topics of interest to those working in combinatorics or related fields.
+{{ site.date | date: "%Y" }} sees the {% assign r = site.edition | modulo: 10 %}{% case r %}{% when 1 %}{{ site.edition }}st{% when 2 %}{{ site.edition }}nd{% when 3 %}{{ site.edition }}rd{% else %}{{ site.edition }}th{% endcase %} year of the Colloquia in Combinatorics. Like every year, the {{ site.date | date: "%Y" }} Colloquia feature {% if tlink %}<a href="{{ tlink | relative_url }}">{% endif %}twelve talks{% if tlink %}</a>{% endif %} covering a wide range of topics of interest to those working in combinatorics or related fields.
 
 {% assign filtered = site.navigation | where: 'name', "Registration" %}
 {% if filtered.size > 0 and filtered.first.link %}
