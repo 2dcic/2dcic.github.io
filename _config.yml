@@ -36,7 +36,7 @@ collections:
 
 navigation:
   - name: Speakers
-    link: /speakers.html
+    link: 
   - name: Schedule
     link: /schedule.html
   - name: Registration
