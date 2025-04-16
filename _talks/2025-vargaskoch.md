@@ -3,7 +3,7 @@
 layout: post
 year: 2025
 day: 1
-number: 2
+number: 1
 speaker: Laura Vargas Koch
 affiliation: RWTH Aachen
 link: https://sites.google.com/view/lvargaskoch/

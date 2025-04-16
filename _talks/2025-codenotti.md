@@ -7,7 +7,7 @@ number: 6
 speaker: Giulia Codenotti
 affiliation: FU Berlin
 link: https://codenotti.github.io/
-title: 
+title: ""
 excerpt_separator: <!--more-->
 
 ---

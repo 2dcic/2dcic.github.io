@@ -2,6 +2,7 @@ table.talks {
   margin-left: 0;
   padding-left: 0;
   padding-top: 0.1rem;
+
 td {
   margin-left: 0;
   padding: 0 10px;
@@ -14,28 +15,35 @@ td {
   margin-top: 0;
 }
 
-input[type="checkbox"]  {
- display: none; /* hide the checkboxes */
+input[type="checkbox"] {
+ display: none;
+ max-width: 600px;
 }
 
-input +.drop +  div
-
-{
-  display:none;
+input + .drop + div {
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
   max-width: 600px;
 }
+
 .drop:after {
-  content: '';
+  content: '+';
   text-align: right;
-  float:right;
+  float: right;
   color: $mid-grey;
-  }
-:checked  + .drop:after {
-  content: '';
+}
+
+:checked + .drop:after {
+  content: '+';
+  transform: rotate(45deg);
   text-align: right;
-  float:right;
+  float: right;
   color: $mid-grey;
-  }
+}
+
 input:checked + .drop + div{
-  display:block;
+  height: auto;
+  visibility: visible;
+  font-size: 1rem;
 }
