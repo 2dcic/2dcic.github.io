@@ -4,6 +4,9 @@ date: 2025-05-07
 locations:
   - QMUL
   - UCL
+venues:
+  - 'Events for the day will take place in the <a href="https://maps.app.goo.gl/tgigzvDrpn4iMmz19">Mathematical Sciences Building</a> on Mile End Road between Globe Road and Bancroft Road: talks in the Maths Lecture Theatre, coffee in the foyer.'
+  - 'Events for the day will take place in <a href="https://maps.app.goo.gl/WeFXikXSujmCWN3z6">Bentham House</a> (UCL Laws) on the corner of Endsleigh Gardens and Endsleigh Street: talks in the Denys Holland Lecture Theatre, coffee and the poster session in the Hong Kong Seminar Room. Weather permitting, the reception will take place in the <a href="https://maps.app.goo.gl/5xpJ78ArJxDfztBt8">Japanese Gardens</a> behind the Student Centre.'
 
 schedule:
   - time: "10:00"
