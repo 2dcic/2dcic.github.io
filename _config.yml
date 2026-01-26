@@ -46,8 +46,8 @@ navigation:
   #   link: https://onlinestore.ucl.ac.uk/conferences-and-events/faculty-of-mathematical-physical-sciences-c06/mathematics-f59/f59-2025-colloquia-in-combinatorics
   # - name: Posters
   #   link: /posters.html
-  - name: Funding
-    link: /funding.html
+  # - name: Funding
+  #   link: /funding.html
   - name: Childcare
     link: /childcare.html
   - name: Code of Conduct
@@ -81,15 +81,15 @@ organisers:
     affiliation: LSE
     link: https://www.lse.ac.uk/people/jozef-skokan
 
-# contacts:
-#   funding:
-#     name: John Talbot
-#     email: j.talbot@ucl.ac.uk
-#     subject: funding support
-#   posters:
-#     name: Shoham Letzter
-#     email: s.letzter@ucl.ac.uk
-#     subject: poster session
+contacts:
+  funding:
+    name: 
+    email:  
+    subject: funding support
+  posters:
+    name: 
+    email: 
+    subject: poster session
 
 # support:
 #   - name: British Combinatorial Committee
