@@ -43,7 +43,7 @@ navigation:
   # - name: Schedule
   #   link: /schedule.html
   - name: Registration
-    link: /registration.html
+    link: https://eshop.lse.ac.uk/product-catalogue/mathematics/event/colloquia-in-combinatorics-2026-registration
   # - name: Posters
   #   link: /posters.html
   # - name: Funding
@@ -92,12 +92,12 @@ contacts:
     subject: poster session
 
 # support:
-#   - name: British Combinatorial Committee
-#     link: https://www.britishcombinatorics.org.uk/
-#     logo: bcc.png
-#   - name: London Mathematical Society
-#     link: https://www.lms.ac.uk/
-#     logo: lms.png
+  # - name: British Combinatorial Committee
+  #   link: https://www.britishcombinatorics.org.uk/
+  #   logo: bcc.png
+  # - name: London Mathematical Society
+  #   link: https://www.lms.ac.uk/
+  #   logo: lms.png
 #   - name: Heilbronn Institute for Mathematical Research
 #     link: https://heilbronn.ac.uk/
 #     logo: himr.png
