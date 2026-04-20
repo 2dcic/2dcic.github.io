@@ -44,8 +44,8 @@ navigation:
   #   link: /schedule.html
   - name: Registration
     link: https://eshop.lse.ac.uk/product-catalogue/mathematics/event/colloquia-in-combinatorics-2026-registration
-  # - name: Posters
-  #   link: /posters.html
+  - name: Posters
+    link: /posters.html
   # - name: Funding
   #   link: /funding.html
   - name: Childcare
@@ -87,22 +87,24 @@ contacts:
     email:  
     subject: funding support
   posters:
-    name: 
-    email: 
+    name: Peter Allen
+    email: p.d.allen@lse.ac.uk
     subject: poster session
+    deadline: Friday 1 May 2026
+    notification: 4 May 2026
 
-# support:
-  # - name: British Combinatorial Committee
-  #   link: https://www.britishcombinatorics.org.uk/
-  #   logo: bcc.png
-  # - name: London Mathematical Society
-  #   link: https://www.lms.ac.uk/
-  #   logo: lms.png
-#   - name: Heilbronn Institute for Mathematical Research
-#     link: https://heilbronn.ac.uk/
-#     logo: himr.png
-#   - name: UKRI/EPSRC Additional Funding Programme for Mathematical Sciences
-#     logo: epsrc.png
+support:
+  - name: British Combinatorial Committee
+    link: https://www.britishcombinatorics.org.uk/
+    logo: bcc.png
+  - name: London Mathematical Society
+    link: https://www.lms.ac.uk/
+    logo: lms.png
+  - name: Heilbronn Institute for Mathematical Research
+    link: https://heilbronn.ac.uk/
+    logo: himr.png
+  - name: UKRI/EPSRC Additional Funding Programme for Mathematical Sciences
+    logo: epsrc.png
 
 ## original settings from here
 
