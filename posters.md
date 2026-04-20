@@ -4,7 +4,7 @@ title: Poster Session
 
 ---
 
-A poster session will take place on {{ site.date | date: "%s" | plus: 86400 | date:"%-d %B %Y" }}, during which PhD students in discrete mathematics and related areas will be able to present their work. A best poster prize will be awarded during the evening reception on the same day.
+PhD students in discrete mathematics and related areas will be able to present their work during a poster session on {{ site.date | date: "%s" | plus: 86400 | date:"%-d %B %Y" }}. A best poster prize will be awarded during the evening reception on the same day.
 
 PhD students wishing to present a poster should apply by sending a title and abstract to <a href="mailto:{{ site.contacts.posters.email }}?subject={{ site.date | date: "%Y" }} Colloquia: {{ site.contacts.posters.subject }}">{{ site.contacts.posters.name }}</a> by {{ site.contacts.posters.deadline }}. Notifications for posters selected for presentation will be sent by {{ site.contacts.posters.notification }}.
 
