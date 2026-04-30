@@ -3,7 +3,7 @@
 layout: post
 year: 2026
 day: 1
-number: 4
+number: 2
 speaker: Piotr Micek 
 affiliation: Jagiellonian University
 link: https://tcs.uj.edu.pl/micek
