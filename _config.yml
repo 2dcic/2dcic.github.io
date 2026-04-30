@@ -4,31 +4,52 @@ date: 2026-05-13
 locations:
   - QMUL
   - LSE
-# venues:
-#   - 'Events for the day will take place in the <a href="https://maps.app.goo.gl/tgigzvDrpn4iMmz19">Mathematical Sciences Building</a> on Mile End Road between Globe Road and Bancroft Road: talks in the Maths Lecture Theatre, coffee in the foyer.'
-#   - 'Events for the day will take place in <a href="https://maps.app.goo.gl/WeFXikXSujmCWN3z6">Bentham House</a> (UCL Laws) on the corner of Endsleigh Gardens and Endsleigh Street: talks in the Denys Holland Lecture Theatre, coffee and the poster session in the Hong Kong Seminar Room. Weather permitting, the reception will take place in the <a href="https://maps.app.goo.gl/5xpJ78ArJxDfztBt8">Japanese Gardens</a> behind the Student Centre.'
+venues:
+  - 'Lectures will take place in the Maths Lecture Theatre on the ground floor of the <a href="https://maps.app.goo.gl/tgigzvDrpn4iMmz19">Mathematical Sciences Building</a> on Mile End Road between Globe Road and Bancroft Road, labelled 4 on the <a href="https://www.qmul.ac.uk/media/qmul/docs/about/Mile-End-campus-map.pdf">campus map</a>.'
+  - 'Lectures will take place in the Wolfson Theatre located on the lower ground floor of the <a href="https://maps.app.goo.gl/jT3V7vR6LtqBhsZ56">Cheng Kin Ku Building</a>, labelled CKK on the <a href="https://www.lse.ac.uk/lse-information/campus-map">campus map</a>.'
+  # - 'Events for the day will take place in <a href="https://maps.app.goo.gl/WeFXikXSujmCWN3z6">Bentham House</a> (UCL Laws) on the corner of Endsleigh Gardens and Endsleigh Street: talks in the Denys Holland Lecture Theatre, coffee and the poster session in the Hong Kong Seminar Room. Weather permitting, the reception will take place in the <a href="https://maps.app.goo.gl/5xpJ78ArJxDfztBt8">Japanese Gardens</a> behind the Student Centre.'
 
-# schedule:
-#   - time: "10:00"
-#     type: coffee
-#   - time: "10:30"
-#     type: talk
-#   - time: "11:20"
-#     type: talk
-#   - time: "12:10"
-#     type: lunch
-#   - time: "13:40"
-#     type: talk
-#   - time: "14:30"
-#     type: talk
-#   - time: "15:20"
-#     type: coffee
-#   - time: "15:50"
-#     type: talk
-#   - time: "16:40"
-#     type: talk
-#   - time: "17:45"
-#     type: reception
+schedule:
+  -
+    - time: "10:00"
+      type: coffee
+    - time: "10:30"
+      type: talk
+    - time: "11:20"
+      type: talk
+    - time: "12:10"
+      type: lunch
+    - time: "13:40"
+      type: talk
+    - time: "14:30"
+      type: talk
+    - time: "15:20"
+      type: coffee
+    - time: "15:50"
+      type: talk
+    - time: "16:40"
+      type: talk
+  -
+    - time: "09:45"
+      type: coffee
+    - time: "10:15"
+      type: talk
+    - time: "11:05"
+      type: talk
+    - time: "11:55"
+      type: talk
+    - time: "12:45"
+      type: lunch
+    - time: "14:00"
+      type: talk
+    - time: "14:50"
+      type: coffee
+    - time: "15:20"
+      type: talk
+    - time: "16:10"
+      type: talk
+    - time: "17:00"
+      type: reception
 
 collections:
   talks:
@@ -38,10 +59,10 @@ collections:
   #   permalink: tags/:path/
 
 navigation:
-  - name: Speakers
-    link: /speakers.html
-  # - name: Schedule
-  #   link: /schedule.html
+  # - name: Speakers
+  #   link: /speakers.html
+  - name: Schedule
+    link: /schedule.html
   - name: Registration
     link: https://eshop.lse.ac.uk/product-catalogue/mathematics/event/colloquia-in-combinatorics-2026-registration
   - name: Posters
