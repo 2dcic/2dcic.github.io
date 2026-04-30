@@ -5,6 +5,7 @@ table.talks {
   margin-bottom: 1.5rem;
 
 td {
+  max-width: 600px;
   margin-left: 0;
   padding: 0 20px 0 0;
 }}
@@ -22,24 +23,21 @@ input[type="checkbox"] {
 
 input + .drop + div {
   height: 0;
+  padding-right: 20px;
   visibility: hidden;
   overflow: hidden;
   max-width: 600px;
 }
 
 .drop:after {
-  content: '+';
+  content: '\00a0+';
   text-align: right;
   float: right;
   color: $mid-grey;
 }
 
 :checked + .drop:after {
-  content: '+';
   transform: rotate(45deg);
-  text-align: right;
-  float: right;
-  color: $mid-grey;
 }
 
 input:checked + .drop + div{
