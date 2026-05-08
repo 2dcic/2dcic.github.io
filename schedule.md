@@ -4,6 +4,8 @@ title: Schedule
 
 ---
 
+{% if site.pdfschedule %}<p>A <a href="{{ site.pdfschedule }}">pdf version</a> of the schedule is available.</p>{% endif %}
+
 {% assign cdate = site.date | date: "%s" | plus: 0 %}{% assign cyear = cdate | date: "%Y" | plus: 0 %}{% for location in site.locations %}{% assign cindex = forloop.index %}{% assign lindex = forloop.index | minus:1 %}{% assign tnum = 0 %}
   <h3>{{ cdate | date: "%A %-d %B %Y"}}, {{ location }}</h3>
   <div class="venue">{{ site.venues[lindex] }}</div>

@@ -51,6 +51,8 @@ schedule:
     - time: "17:00"
       type: reception
 
+pdfschedule: assets/docs/schedule.pdf
+
 collections:
   talks:
     sort_by: number

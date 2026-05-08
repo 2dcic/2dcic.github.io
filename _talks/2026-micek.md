@@ -6,7 +6,7 @@ day: 1
 number: 2
 speaker: Piotr Micek 
 affiliation: Jagiellonian University
-link: https://tcs.uj.edu.pl/micek
+link: https://page.math.tu-berlin.de/~micek/
 title: Far-Apart Version of Erdős-Pósa and Gallai Theorems
 excerpt_separator: <!--more-->
 
