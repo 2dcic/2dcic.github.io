@@ -67,8 +67,8 @@ navigation:
     link: /schedule.html
   - name: Registration
     link: https://eshop.lse.ac.uk/product-catalogue/mathematics/event/colloquia-in-combinatorics-2026-registration
-  - name: Posters
-    link: /posters.html
+  # - name: Posters
+  #   link: /posters.html
   # - name: Funding
   #   link: /funding.html
   - name: Childcare
